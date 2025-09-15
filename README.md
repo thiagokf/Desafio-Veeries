@@ -38,3 +38,4 @@ Infelizmente, não encontrei uma forma de tratar isso, portanto deixei assim no 
 A realização deste desafio permitiu-me aplicar e consolidar conhecimentos em ETL e aprender mais sobre manipulação e analise de dados.
 Como melhorias futuras, a solução poderia incluir a automação da rotina de coleta e processamento diário utilizando ferramentas como o cronjob ou o Apache Airflow, que fariam
 o processamento automaticamente. Agradeço a oportunidade!
+dasd
