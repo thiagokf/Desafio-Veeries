@@ -34,9 +34,6 @@ def coleta_dados_paranagua():
         columns=["Programação", "DUV", "Berço", "Embarcação", "IMO", "LOA", "DWT", "Bordo", "Sentido", "Agência", "Operador", "Mercadoria", "Atracação", "Chegada", "Janela Operacional", "	Prancha", "Tons/Dia", "Previsto", "Realizado", 'Saldo Operador', 'Saldo Total'] 
     )
 
-    # mudanças em linhas especificas que tiveram erro na extração
-
-
     if not os.path.exists('camada_bronze'): # cria a pasta se não existir
         os.makedirs('camada_bronze')
     df_bronze.to_csv(f'camada_bronze/paranagua_lineup_{data_formatada}.csv', index=False, encoding="utf-8")
